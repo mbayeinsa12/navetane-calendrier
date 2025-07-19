@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendrier Navétane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calendrier du Navétane</h1>
+    
+    <form id="matchForm">
+      <input type="text" id="equipe1" placeholder="Équipe 1" required>
+      <input type="text" id="equipe2" placeholder="Équipe 2" required>
+      <input type="date" id="date" required>
+      <input type="time" id="heure" required>
+      <button type="submit">Ajouter Match</button>
+    </form>
+
+    <h2>Liste des matchs</h2>
+    <ul id="matchList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
